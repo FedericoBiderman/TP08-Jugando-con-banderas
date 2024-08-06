@@ -1,0 +1,50 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #f8f9fa, #a5d8ff);
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .title {
+    font-size: 3rem;
+    color: #333;
+    animation: fadeIn 1.5s ease-in-out;
+  }
+  
+  .description {
+    font-size: 1.5rem;
+    color: #555;
+    margin-bottom: 2rem;
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  .button {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    color: white;
+    background-color: #0070f3;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    animation: fadeIn 2.5s ease-in-out;
+  }
+  
+  .button:hover {
+    background-color: #005bb5;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
